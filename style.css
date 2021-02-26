@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: no;
+    }
+/* main{
+    background: linear-gradient(to bottom,rgb(255, 255, 255),rgb(255, 255, 255));
+    height: 200vh;
+    z-index: 0;
+} */
+body{
+    background: url(RP.png) no-repeat;
+    opacity: 5;
+    background-size: cover;
+}
+.header{
+    position: absolute;
+    color: rgb(250, 250, 250);
+    z-index: 1;
+    top: 2vh;
+    left: 52vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.tile1{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    border-radius: 2px;
+    height: 80vh;
+    width: 120vh;
+    top: 0vh;
+    left: 40vh;
+}
+.heading{
+    position: absolute;
+    z-index: 1;
+    left: 79vh;
+    top: 27vh;
+
+}
+.container{
+    position: absolute;
+    top: 35vh;
+    width: 100%;
+    padding: 0 20px;
+}
+.formbody{
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.formdiv1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40%;
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.formdiv1 .fb, .formdiv2 textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid rgb(71, 31, 16);
+    padding: 4px;
+    color: white;
+}
+.btn{
+    position: absolute;
+    top: 42vh;
+    background: rgb(0, 0, 0);
+    left: 75vh;
+    text-align: center;
+    padding: 10px;
+    color: rgb(252, 252, 252);
+    border-radius: 0.5vh;
+    width: 50vh;
+    cursor: grab;
+}
+.formdiv2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.video{
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+}
+.footer{
+    position: absolute;
+    top: 218vh;
+    left: 32vh;
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+    top: 0vh;
+}
